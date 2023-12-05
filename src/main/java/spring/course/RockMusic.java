@@ -7,10 +7,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-@Component
+
 public class RockMusic implements Music {
     List<String> rockList = new ArrayList<>();
-    @Autowired
+
     public RockMusic() {
         rockList.add("Smells like teen spirit");
         rockList.add("I hate everything about you");

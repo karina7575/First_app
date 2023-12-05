@@ -16,6 +16,6 @@ public class Computer {
     }
 
     public String computerPlayMusic(Genres genre) {
-        return "Computer " + id + " " + musicPlayer.playMusic(genre);
+        return "Computer " + id + " " + musicPlayer.playMusic();
     }
 }
